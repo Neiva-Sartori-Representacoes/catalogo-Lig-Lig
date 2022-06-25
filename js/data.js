@@ -33,5 +33,12 @@ export const lista = [
         preco: "50,00",
         ref: "0dsf4sd1v0255",
         cores: ["white", "blue"]  
+    },
+    {   descricao: "Roupa da Neiva",
+        tamanho: "Tamanho: M | P",
+        imagem: "./img/06.png",
+        preco: "50,00",
+        ref: "0dsf4sd1v0255",
+        cores: ["white", "blue", "green"]  
     }
   ]
