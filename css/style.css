@@ -1,0 +1,113 @@
+*{
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+}
+
+.header{
+  width: 100%;
+  text-align: center;
+  height: 40px;
+  background-color: #074;
+  color: rgb(223, 223, 223);
+}
+
+main{
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width:100%;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.card{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  width: 85%;
+  padding: 5px 0;
+  box-shadow: 0px 1px 5px 0px rgba(28, 29, 4, 0.5);
+  background-color:#fff;
+}
+
+.card img{
+  max-width: 90%;
+}
+
+.card__infos{
+  width:95%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 5px;
+  align-items: center;
+}
+
+.card__infos p{
+  padding: 5px;
+}
+
+.card__text{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.cores{
+  display: flex;
+  gap: 4px;
+  width: 100%;
+  padding: 0 5px;
+  justify-content:center;
+}
+.bullet{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 1px solid rgba(0,0,0,0.3);
+}
+
+.ref, .ref span, .card__text, .cores{
+  color:#5b5b5b;
+}
+
+.preco span{
+  font-weight: bold;
+}
+
+
+@media screen and (min-width: 500px)  {
+  main{
+    padding: 10px;
+    flex-direction: row;    
+    width: 800px;
+  }
+  
+  .card{
+    max-width: 250px;
+  }
+  
+  .card img{
+    max-height: 280px;
+  }
+}
+
+@media screen and (min-width: 805px)  {
+  main{
+    justify-content: flex-start;
+  }  
+  
+}
