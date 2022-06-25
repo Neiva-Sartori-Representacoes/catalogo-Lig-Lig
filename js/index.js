@@ -1,4 +1,4 @@
-import { lista } from "./data.js";
+import { lista } from "../data.js";
 
 export function cards(produtos) {
   const main = document.getElementById('main')
